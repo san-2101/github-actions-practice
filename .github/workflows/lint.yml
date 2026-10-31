@@ -10,3 +10,6 @@ jobs:
     steps:
       - name: Checkout/clone the code
         uses: actions/checkout@v7
+
+      - name: Install Linter
+        run:  pip install ruff
