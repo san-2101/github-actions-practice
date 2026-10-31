@@ -1,4 +1,4 @@
-# Adding comments
+# Adding comments checking
 from flask import Flask, render_template
 
 
